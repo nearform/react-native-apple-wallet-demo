@@ -1,0 +1,52 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.nearform.event",
+  "serialNumber": "13fc2d1e-d378-45e6-bb5b-04555e13ac4e",
+  "teamIdentifier": "VPLG3LLGBN",
+  "relevantDate": "2023-08-03T03:20:00Z",
+  "organizationName": "Nearform Ltd.",
+  "description": "NearFest Ticket",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "13fc2d1e-d378-45e6-bb5b-04555e13ac4e",
+      "messageEncoding": "iso-8859-1"
+    },
+    {
+      "format": "PKBarcodeFormatPDF417",
+      "message": "13fc2d1e-d378-45e6-bb5b-04555e13ac4e",
+      "messageEncoding": "iso-8859-1"
+    },
+    {
+      "format": "PKBarcodeFormatAztec",
+      "message": "13fc2d1e-d378-45e6-bb5b-04555e13ac4e",
+      "messageEncoding": "iso-8859-1"
+    },
+    {
+      "format": "PKBarcodeFormatCode128",
+      "message": "13fc2d1e-d378-45e6-bb5b-04555e13ac4e",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "logoText": "NearFest",
+  "thumbnail": "blob:https://pkvd.app/6e5a49c4-ac96-4c0c-ab6e-2552a8ed9efd",
+  "background3x": "blob:https://pkvd.app/e407f5bb-a958-4767-a557-5633aba48cd9",
+  "eventTicket": {
+    "headerFields": [{ "key": "year", "value": "23", "label": "20" }],
+    "auxiliaryFields": [
+      { "key": "date", "label": "Date", "value": "2023-08-05" },
+      { "value": "10:00", "label": "Doors Open", "key": "doorsopen" }
+    ],
+    "primaryFields": [{ "key": "event", "label": "by", "value": "NearFest" }],
+    "secondaryFields": [
+      {
+        "key": "loc",
+        "label": "Location",
+        "value": "Tramore, Waterford, Ireland"
+      }
+    ],
+    "backFields": []
+  }
+}

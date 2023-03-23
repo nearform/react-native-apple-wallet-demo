@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.15.0"
+    "fastify": "^4.15.0",
+    "passkit-generator": "^3.1.7"
   }
 }
