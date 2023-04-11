@@ -16,20 +16,6 @@ fastify.get("/", function (request, reply) {
   reply.send({ status: "ok" });
 });
 
-fastify.addContentTypeParser(
-  "application/json",
-  { parseAs: "string" },
-  function (_req, body, done) {
-    try {
-      const json = JSON.parse(body);
-      done(null, json);
-    } catch (err) {
-      err.statusCode = 400;
-      done(err, undefined);
-    }
-  }
-);
-
 fastify.post("/", async (request, reply) => {
   const { name } = request.body;
 
