@@ -11,8 +11,9 @@ It should open a simulator and load our React Native app.
 
 ### Passkit Generation Server
 
-In a separate instance of command line, run `cd ./server && node index.js`. It will start a
-Fastify server that will be listening on port 3000.
+In a separate instance of command line, run `cd ./server && npm i && node index.js`. It will start a
+Fastify server that will be listening on port 3000. The server runs on Fastify 5 and requires
+**Node.js 20 or newer**.
 
 ## Demonstration
 
