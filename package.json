@@ -16,7 +16,7 @@
     "expo-splash-screen": "~0.18.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.29.6"
   },
   "private": true
 }
